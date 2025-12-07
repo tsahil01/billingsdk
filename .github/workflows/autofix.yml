@@ -17,6 +17,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      - name: Build ShadCN
+        run: npm run build:shadcn
+
       - name: Format with Prettier
         run: npm run format
 
